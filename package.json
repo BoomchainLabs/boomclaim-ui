@@ -1,12 +1,16 @@
 {
   "name": "boomclaim",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "compile": "hardhat compile",
-    "deploy": "hardhat run scripts/deploy.js --network monad"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "dotenv": "^17.0.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@mysten/sui.js": "latest"
   }
 }
