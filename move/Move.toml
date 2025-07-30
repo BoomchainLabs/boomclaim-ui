@@ -1,0 +1,7 @@
+[package]
+name = "boom_claim"
+version = "0.0.1"
+published-at = "0x04b421F7a73C039194033bfe18d728EaEd0BC7DB"
+
+[addresses]
+boomclaim = "0x04b421F7a73C039194033bfe18d728EaEd0BC7DB"
